@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Nopaper</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_student_info">StudentInfoActivity</string>
+    <string name="title_activity_rull_setup">RullSetupActivity</string>
+    <string name="title_activity_attendance_info">AttendanceInfoActivity</string>
+    <string name="title_activity_notice">NoticeActivity</string>
+    <string name="title_activity_option">OptionActivity</string>
+    <string name="title_activity_change_color">ChangeColorActivity</string>
+    <string name="title_activity_change_passwd">ChangePasswdActivity</string>
+
+</resources>

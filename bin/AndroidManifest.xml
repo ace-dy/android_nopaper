@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ssu.satp.nopaper"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="9" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon_white"
+        android:label="김차출석부"
+        android:theme="@android:style/Theme.NoTitleBar" >
+        <activity
+            android:name="ssu.satp.nopaper.MainActivity"
+            android:label="김차출석부"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="ssu.satp.nopaper.ClassScheduleActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="ssu.satp.nopaper.MainMenuActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="ssu.satp.nopaper.StudentListForRollBookActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="ssu.satp.nopaper.StudentListForCheckActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="ssu.satp.nopaper.StudentInfoActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="ssu.satp.nopaper.RuleSetupActivity"
+            android:label="@string/title_activity_rull_setup"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="ssu.satp.nopaper.AttendanceInfoActivity"
+            android:label="@string/title_activity_attendance_info"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="ssu.satp.nopaper.NoticeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent" >
+        </activity>
+        <activity
+            android:name="ssu.satp.nopaper.OptionActivity"
+            android:label="@string/title_activity_option" >
+        </activity>
+        <activity
+            android:name="ssu.satp.nopaper.ChangeColorActivity"
+            android:label="@string/title_activity_change_color" >
+        </activity>
+        <activity
+            android:name="ssu.satp.nopaper.ChangePasswdActivity"
+            android:label="@string/title_activity_change_passwd" >
+        </activity>
+    </application>
+
+</manifest>
